@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+body {
+  font-size: 10px;
+}
+.main-left {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #fafbfd;
+}
+
+.main-left .title {
+  position: absolute;
+  top: 10%;
+  left: calc(50% - 67px);
+  width: 114px;
+  height: 2em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 2em;
+  color: rgba(9, 15, 49, 1);
+}
+
+.main-left .title span {
+  font-size: inherit;
+  color: rgba(247, 84, 46, 1);
+}
+
+.main-left ul {
+  position: fixed;
+  top: 25%;
+}
+
+.main-left li {
+  list-style: none;
+  height: 1em;
+  padding: 0.75em;
+  justify-content: space-between;
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 1em;
+  color: #9e9e9e;
+}
+
+.main-left li:hover {
+  font-weight: 700;
+  color: #090f31;
+}
+
+.main-left li.active {
+  font-weight: 700;
+  color: #090f31;
+}
+
+.main-left a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-right {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  left: 20%;
+  top: 0%;
+  background: #ffffff;
+}
+
+.main-right .title {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 1em;
+  color: #4f4f4f;
+}
+
+.main-right a {
+  position: relative;
+  text-decoration: none;
+  border-radius: 6px;
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 1em;
+  padding: 0.75em 1.5em;
+}
+
+.label {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75em;
+  font-size: 1em;
+  color: #333333;
+}
+/* button positions*/
+.rowA {
+  position: absolute;
+  bottom: 85%;
+}
+
+.rowB {
+  position: absolute;
+  bottom: 75%;
+}
+
+.rowC {
+  position: absolute;
+  bottom: 65%;
+}
+
+.rowD {
+  position: absolute;
+  bottom: 55%;
+}
+.rowE {
+  position: absolute;
+  bottom: 45%;
+}
+.rowF {
+  position: absolute;
+  bottom: 35%;
+}
+.rowG {
+  position: absolute;
+  bottom: 25%;
+}
+.rowH {
+  position: absolute;
+  bottom: 15%;
+}
+
+.rowI {
+  position: absolute;
+  bottom: 5%;
+}
+
+.columnA {
+  position: absolute;
+  left: 10%;
+}
+
+.columnB {
+  position: absolute;
+  left: 35%;
+}
+
+.columnC {
+  position: absolute;
+  left: 60%;
+}
+
+.columnD {
+  position: absolute;
+  left: 80%;
+}
+
+/* button colors */
+.gr {
+  background: #aeaeae;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.Dgr {
+  background: #455a64;
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+.Lgr {
+  background: #e0e0e0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.bla {
+  background: #1c313a;
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+
+.blu {
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+
+.Dblu {
+  background: #0039cb;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+.Lblu {
+  background: rgba(41, 98, 255, 0.1);
+}
+.red {
+  background: #d32f2f;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
+.Dred {
+  background: #9a0007;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
+.outline {
+  border: 1px solid rgba(61, 90, 254, 1);
+}
+
+/* text colors */
+a.Tgr {
+  color: #3f3f3f;
+}
+a.Tw {
+  color: #ffffff;
+}
+a.TLgr {
+  color: #9e9e9e;
+}
+a.Tblu {
+  color: #3d5afe;
+}
+
+/* button sizes*/
+a.lg {
+  padding: 11px 22px;
+}
+
+a.sm {
+  padding: 6px 12px;
+}
+
+a.shopping_cart_start {
+  position: relative;
+  height: 1em;
+  width: 1em;
+  padding-left: 3em;
+  z-index: 0;
+}
+a.shopping_cart_end {
+  position: relative;
+  height: 1em;
+  width: 1em;
+  padding-right: 3em;
+  z-index: 0;
+}
+#start {
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  background: #ffffff;
+  border: 2px solid black;
+  left: 1em;
+}
+
+#end {
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  background: #ffffff;
+  border: 2px solid black;
+  right: 1em;
+}
