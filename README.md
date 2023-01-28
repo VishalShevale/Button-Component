@@ -1,5 +1,3 @@
-# Button-Component
-responsive-ish build with HTML and CSS. I just like when web pages fold and the components move around, even though it's impractical. I resisted using FlexBox for the most part.
 <!-- Please update value in the {}  -->
 
 <h1 align="center">{Button-Component}</h1>
@@ -89,6 +87,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [vishalshevale15593@gmail.com](https://{your-web-site-link})
+- GitHub [https://github.com/VishalShevale](https://{github.com/your-usermame})
+
