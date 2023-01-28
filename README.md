@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/VishalShevale/Button-Component}">
+    <a href="https://frontend-challange-buttons.netlify.app/">
       Solution
     </a>
     <span> | </span>
